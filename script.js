@@ -2,6 +2,8 @@ const moon = document.getElementById("moon");
 const sun = document.getElementById("sun");
 const body = document.body;
 const nav_link = document.getElementsByClassName("nav_link");
+const contact_link = document.getElementsByClassName("contact_link");
+
 
 moon.addEventListener("click", () => {
   body.classList.add("darkMode");
@@ -13,6 +15,9 @@ moon.addEventListener("click", () => {
   for (let a = 0; a < nav_link.length; a++) {
     nav_link[a].style.color = "#fff";
   }
+  for (let a = 0; a < contact_link.length; a++) {
+    contact_link[a].style.color = "#fff";
+  }
 });
 sun.addEventListener("click", () => {
   body.classList.add("lightMode");
@@ -22,5 +27,8 @@ sun.addEventListener("click", () => {
   body.style.color = "";
   for (let a = 0; a < nav_link.length; a++) {
     nav_link[a].style.color = "";
+  }
+  for (let a = 0; a < contact_link.length; a++) {
+    contact_link[a].style.color = "";
   }
 });
