@@ -15,9 +15,7 @@ moon.addEventListener("click", () => {
   }
 });
 sun.addEventListener("click", () => {
-  setTimeout(() => {
-    body.classList.add("lightMode");
-  }, 1500);
+  body.classList.add("lightMode");
   moon.style.display = "block";
   sun.style.display = "none";
   body.style.background = "";
