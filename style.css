@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font: 68.5%;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+}
+ul {
+  list-style: none;
+}
+.main_container {
+  /* border: 0.5rem solid rgb(247,156,149); */
+}
+
+.body_container {
+  height: auto;
+  width: 72%;
+  margin: 3rem auto;
+}
+
+/* navbar */
+
+.nav_container .nav .nav_ul {
+  display: flex;
+  justify-content: start;
+  /* background: red; */
+}
+.nav_container .nav .nav_ul li {
+  margin-right: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(51, 48, 48);
+}
+.nav_container .nav .nav_ul li a {
+  color: rgb(51, 48, 48);
+}
+#logo_link {
+  height: 1rem;
+  width: 1rem;
+  background: rgb(29, 48, 77);
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: white;
+}
+
+/* content */
+
+.content_container {
+  margin-top: 4.5rem;
+}
+.welcome_content {
+  font-family: cursive;
+  font-size: 5rem;
+  font-weight: 700;
+  color: rgb(124, 124, 213);
+  text-decoration: underline;
+}
+.content_details {
+  margin: 1.5rem 0 0 0;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+}
+
+/* skill */
+
+.skill_container {
+  margin-top: 2rem;
+}
+.skill {
+  color: rgb(124, 124, 213);
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.skills {
+  padding: 1rem 0;
+}
+.program {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+}
+
+/* contact */
+
+.contact_container {
+  margin-top: 2rem;
+}
+.chat {
+  color: rgb(124, 124, 213);
+  text-decoration: underline;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.each_contact {
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* moon_sun */
+#sun {
+  display: none;
+  cursor: pointer;
+}
+#moon {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav_container .nav .nav_ul li {
+    font-size: 1.2rem;
+  }
+  .welcome_content {
+    font-size: 4rem;
+  }
+  .content_details {
+    font-size: 1rem;
+  }
+  .skill {
+    font-size: 1.6rem;
+  }
+  .program {
+    font-size: 1.2rem;
+  }
+  .chat {
+    font-size: 1.2rem;
+  }
+  .each_contact {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .nav_container .nav .nav_ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav_container .nav .nav_ul li {
+    margin-top: 0.8rem;
+  }
+  .content_container {
+    margin-top: 1.5rem;
+  }
+}
+
+
+
+/* animation */
+
+.lightMode{
+    animation: lightMode 1.5s;
+}
+.lightMode{
+    animation: lightMode 1.5s;
+}
+@keyframes lightMode{
+    0%{
+        background: rgb(211, 139, 139);
+    }
+    100%{
+        background: rgb(255, 250, 251);
+    }
+}
+@keyframes darkMode{
+    0%{
+        background: rgb(206, 186, 186);
+    }
+    100%{
+        background: rgb(51, 48, 48);
+    }
+}
