@@ -10,6 +10,7 @@ html {
 }
 body {
   font-family: "PT Sans", sans-serif;
+  color: rgb(72, 61, 60);
 }
 a {
   text-decoration: none;
@@ -108,6 +109,46 @@ ul {
   font-size: 1.2rem;
 }
 
+/* work */
+
+.work_container {
+  margin-top: 4.5rem;
+}
+.some_work {
+  margin-top: 2rem;
+  color: rgb(124, 124, 213);
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.works {
+  /* margin-top: 2rem; */
+}
+.each_work {
+  margin: 2rem 0;
+  padding: 0.5rem;
+  /* background: red; */
+}
+.work_title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: rgb(124, 124, 213);
+  font-family: cursive;
+}
+.tech {
+  margin: 0.5rem 0;
+  display: flex;
+}
+.each_tech {
+  color: rgb(247, 156, 149);
+  margin-right: 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.details {
+  font-size: 1.2rem;
+}
+
 /* moon_sun */
 #sun {
   display: none;
@@ -139,6 +180,7 @@ ul {
   .each_contact {
     font-size: 1rem;
   }
+
 }
 
 @media only screen and (max-width: 650px) {
@@ -152,31 +194,43 @@ ul {
   .content_container {
     margin-top: 1.5rem;
   }
+
+  .work_title {
+    font-size: 2.5rem;
+  }
+  .tech{
+    /* float: left; */
+  }
+  .each_tech {
+    margin-right: 1.3rem;
+    font-size: 1rem;
+  }
+  .details{
+    font-size: 1rem;
+  }
 }
-
-
 
 /* animation */
 
-.lightMode{
-    animation: lightMode 1.5s;
+.lightMode {
+  animation: lightMode 1.5s;
 }
-.lightMode{
-    animation: lightMode 1.5s;
+.lightMode {
+  animation: lightMode 1.5s;
 }
-@keyframes lightMode{
-    0%{
-        background: rgb(211, 139, 139);
-    }
-    100%{
-        background: rgb(255, 250, 251);
-    }
+@keyframes lightMode {
+  0% {
+    background: rgb(211, 139, 139);
+  }
+  100% {
+    background: rgb(255, 250, 251);
+  }
 }
-@keyframes darkMode{
-    0%{
-        background: rgb(206, 186, 186);
-    }
-    100%{
-        background: rgb(51, 48, 48);
-    }
+@keyframes darkMode {
+  0% {
+    background: rgb(206, 186, 186);
+  }
+  100% {
+    background: rgb(51, 48, 48);
+  }
 }

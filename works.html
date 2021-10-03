@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <title>.works()</title>
+      </head>
+      <body>
+        <div class="main_container" data-aos="fade-down">
+          <div class="body_container">
+            <!-- nav -->
+            <div class="nav_container">
+              <nav class="nav">
+                <ul class="nav_ul">
+                  <li class="nav_link">
+                    <a class="nav_link" href="/" id="logo_link">RU</a>
+                  </li>
+                  <li class="nav_link">
+                    <a class="nav_link" href="/">.about()</a>
+                  </li>
+                  <li><a class="nav_link" href="/works.html">.works()</a></li>
+                  <li><a class="nav_link" href="/contact.html">.contact()</a></li>
+                  <li id="moon"><i class="far fa-moon"></i>moon</li>
+                  <li id="sun"><i class="far fa-sun"></i>sun</li>
+                </ul>
+              </nav>
+            </div>
+
+            <!-- works -->
+            <div class="work_container">
+              <p class="some_work">SOME WORK</p>
+
+              <div class="works">
+                <div class="each_work">
+                  <p class="work_title">DATABASE BACKUP SERVER</p>
+                  <ul class="tech">
+                    <li class="each_tech">NodeJs/Typescript</li>
+                    <li class="each_tech">Mongodb</li>
+                    <li class="each_tech">Aws</li>
+                    <li class="each_tech">Shell</li>
+                  </ul>
+
+                  <p class="details">
+                    Database backup server is a solution for backing up mongodb
+                    database and storing the backup to aws. It is made on Node
+                    Js and it's whose ultimate goal is to provide secure and
+                    easy way of backing up database. This server stores the
+                    backup to aws as well save it's link at user's local
+                    database with backup process logs. It provide live logs of
+                    backup process which can be used to show it on frontend
+                    using socket.
+                  </p>
+                </div>
+
+                <div class="each_work">
+                  <p class="work_title">ECOMMERCE SITE</p>
+                  <ul class="tech">
+                    <li class="each_tech">NodeJs/Express</li>
+                    <li class="each_tech">React/Redux</li>
+                    <li class="each_tech">Mongodb</li>
+                  </ul>
+                  <p class="details">
+                    A complete ecommerce site made on MERN stack. It is a
+                    functioning ecommerce site able to record items on cart,
+                    have admin dashboard. I have made this in my early stage of
+                    learning so haven't hosted it yet.
+                  </p>
+                </div>
+
+                <div class="each_work">
+                  <p class="work_title">SOCIAL MEDIA SITE</p>
+                  <ul class="tech">
+                    <li class="each_tech">NodeJs/Express</li>
+                    <li class="each_tech">React/Redux</li>
+                    <li class="each_tech">Mongodb</li>
+                  </ul>
+                  <p class="details">
+                    As a personal project, I had made a social media site
+                    similar to facebook. It has the functionality of like,
+                    comment, adding photos, unfriend-fiend people, visiting
+                    profile and much more. It is one of my early stage project
+                    using MERN stack.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+        <script>
+          AOS.init();
+        </script>
+        <script src="script.js"></script>
+      </body>
+    </html>
+  </head>
+</html>
